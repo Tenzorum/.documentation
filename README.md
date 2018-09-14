@@ -22,6 +22,8 @@ A SDK that is used to interface with the TSNN to use meta-transactions. Also inc
 
 ## Repositories Overview
 
+**TSNN (Tenzorum Service Node Network)**
+
 [Tenzorum Service Node (TSNN)](https://github.com/Tenzorum/TSNN-Service-Node) - service node client
 
 [Service Node Network Interface and Tx selection](https://github.com/Tenzorum/TSNN-network-interface) - network interface & tx propagation
