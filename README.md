@@ -2,7 +2,7 @@
 
 # Tenzorum Documentation
 
-Tldr; Tenzorum is building ux infrastructure for web3. 
+Tldr; Tenzorum is building ux infrastructure for web3. [Our whitepaper](https://github.com/Tenzorum/whitepaper-draft1/blob/master/Tenzorum%20Project%20Whitepaper%20Draft%201.pdf)
 
 Aiming to help craft the best user experience there can be by any means possible.
 
@@ -43,3 +43,7 @@ A SDK that is used to interface with the TSNN to use meta-transactions. Also inc
 [Key manager prototype](https://github.com/Tenzorum/IPAS-momentum-browser) - client side key manager
 
 [Key manager login prototype](https://github.com/Tenzorum/IPAS-login-prototype) - key manager login idea
+
+## How to contribute
+
+Join us on here on telegram...
