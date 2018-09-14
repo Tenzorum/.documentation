@@ -12,13 +12,13 @@ Aiming to help craft the best user experience there can be by any means possible
 
 Protocol for recieving offchain meta-transactions and executing them on behalf of users. Service nodes are compensated for this delegated transactions service. This enables a sexier new form of user experience that was previously not possible.
 
-[Docs on the TSNN]()
+[Docs on the TSNN](https://github.com/Tenzorum/.documentation/blob/master/TSNN)
 
 **Web3 Key Management SDK** - IPAS (Inter-Planetary Access System)
 
 A SDK that is used to interface with the TSNN to use meta-transactions. Also includes other fun things such as standardised multi-sig wallets with key permissioning that uses meta-transactions, 725 identity tenzorum identity kit, universal login system, ENS subdomain factory, key recovery solutions and blockchain notifications API kit. This is essentially a fun party bag that is not only used to implement and use the TSNN but also used to implement other UX infrastructure.
 
-[Docs on IPAS]()
+[Docs on IPAS](https://github.com/Tenzorum/.documentation/blob/master/IPAS)
 
 ## Repositories Overview
 
