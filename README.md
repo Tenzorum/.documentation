@@ -22,11 +22,11 @@ A SDK that is used to interface with the TSNN to use meta-transactions. Also inc
 
 ## Repositories Overview
 
-[Tenzorum Service Node (TSNN)](https://github.com/Tenzorum/TSNN-Service-Node) - Service node client
+[Tenzorum Service Node (TSNN)](https://github.com/Tenzorum/TSNN-Service-Node) - service node client
 
-[Service Node Network Interface and Tx selection](https://github.com/Tenzorum/TSNN-network-interface) - Network interface & tx propagation
+[Service Node Network Interface and Tx selection](https://github.com/Tenzorum/TSNN-network-interface) - network interface & tx propagation
 
-[TSNN SDK](https://github.com/Tenzorum/TSNN-client-sdk) - Relaying txs to TSNN
+[TSNN SDK](https://github.com/Tenzorum/TSNN-client-sdk) - relaying txs to TSNN
 
 **IPAS (Inter-Planetary Access System)**
 
@@ -34,10 +34,10 @@ A SDK that is used to interface with the TSNN to use meta-transactions. Also inc
 
 [Personal multi-sig](https://github.com/Tenzorum/IPAS-personal-wallet-contracts) - multi-sig with TSNN SDK implementation
 
-[Mobile IPAS interface](https://github.com/Tenzorum/IPAS-mobile-portal) - Mobile front end to use IPAS and TSNN Multi-sigs
+[Mobile IPAS interface](https://github.com/Tenzorum/IPAS-mobile-portal) - mobile front end to use IPAS and TSNN Multi-sigs
 
 [Chrome extention key manager](https://github.com/Tenzorum/IPAS-chrome_extension) - chrome ext. for multisig identity keys
 
-[Key manager prototype](https://github.com/Tenzorum/IPAS-momentum-browser) - Client side key manager
+[Key manager prototype](https://github.com/Tenzorum/IPAS-momentum-browser) - client side key manager
 
 [Key manager login prototype](https://github.com/Tenzorum/IPAS-login-prototype) - key manager login idea
