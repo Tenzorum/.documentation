@@ -30,6 +30,8 @@ A SDK that is used to interface with the TSNN to use meta-transactions. Also inc
 
 [TSNN SDK](https://github.com/Tenzorum/TSNN-client-sdk) - relaying txs to TSNN
 
+[Meta-Tx TSNN standard](https://github.com/Tenzorum/meta-transaction-format-share)
+
 **IPAS (Inter-Planetary Access System)**
 
 [ENS subdomain factory](https://github.com/Tenzorum/IPAS-ens-subdomain-factory) - makes subdomains
@@ -47,4 +49,3 @@ A SDK that is used to interface with the TSNN to use meta-transactions. Also inc
 ## How to contribute
 
 Join us on here on telegram...
-https://github.com/Tenzorum/meta-transaction-format-share
