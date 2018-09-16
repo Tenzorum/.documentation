@@ -48,4 +48,4 @@ A SDK that is used to interface with the TSNN to use meta-transactions. Also inc
 
 ## How to contribute
 
-Join us on our [Telegram](t.me/tenzorum) and say hi!
+Join us on our [Telegram @ t.me/tenzorum](t.me/tenzorum) and say hi!
