@@ -16,12 +16,11 @@ Summary: Onchain transactions with gas paid for by either the user or a third pa
 
 2. Meta-tx is relayed to the service node
 
-3. Service node recieves the meta-tx and validates it. Checks if it is associated with any contract wallet with the right public key given the right permission to execute delegate transactions + then checks if other fields of the meta-tx is valid. (eg. tx is valid, enough gas etc.)
+3. Service node recieves the meta-tx and validates it. Checks if the associated contract address is associated with the matching public key given with valid delegation permissions to execute the meta-tx + then checks if other fields of the meta-tx is valid.
 
 4. Meta-tx are propagated around the network and executed.
 
 5. Once service nodes carry out onchain transaction, they claim the reward encoded into the meta-tx
-
 
 ### Repositories
 
@@ -115,6 +114,15 @@ The TSNN meta-tx RPC call will be formatted in following way and how a project w
 - The (data) input is there for further data standard implementations. + ERC191 like data standard or other possibilities for even fields like who is covering the cost of gas, or the dapp being used etc.
 - The (rewardType) is a selection of whether we want to reward the service node relayers with a known token or Ether. 
 - The (rewardAmount) will be an amount to send to further incentivise service node relayers to relay your transaction. 
+
+# Service node staking and economics
+
+Coming soon...
+
+# Service node pool economics
+
+Coming soon...
+
 
 ## Scenarios
 
