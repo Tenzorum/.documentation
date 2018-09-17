@@ -31,19 +31,19 @@ https://github.com/Tenzorum/tenz-tsn-js
 
 ### Jargon & definition of terms
 
-Meta-tx (Meta transaction)
+Meta-tx (Meta transaction): Tx with additional meta data fields eg. reward details
 
-Relayer
+Relay: Act of sending meta-tx away to offchain 2nd layer / service node
 
-Delegator
+Relayer: The user / dapp that is sending the tx away to the 2nd layer / service node
 
-Delegation
+Delegation: Passing on reponsibility of executing the tx
 
-Delegated-tx (Delegated transaction)
+Delegated-tx (Delegated transaction): Meta-tx that has been relayered
 
-Service node
+Service node: Server that recieves meta-txs and confirms the validity of the tx.
 
-Tx-pool
+Tx-pool: Pending layer of meta-txs that are ready to be executed
 
 Gasless transaction - users point of view
 
