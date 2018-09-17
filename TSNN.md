@@ -12,6 +12,8 @@ Summary: Onchain transactions with gas paid for by either the user or a third pa
 
 ![](https://i.imgur.com/tY0PHGi.png)
 
+// Diagram: need to depict staking and service node onchain execution of meta-tx
+
 1. User uses private key to prepare a meta-tx with a reward for its execution
 
 2. Meta-tx is relayed to the service node
