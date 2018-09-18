@@ -125,6 +125,17 @@ Coming soon...
 
 Coming soon...
 
+## Repositories
+
+**TSNN (Tenzorum Service Node Network)**
+
+[Tenzorum Service Node (TSNN)](https://github.com/Tenzorum/TSNN-Service-Node) - service node client
+
+[Service Node Network Interface and Tx selection](https://github.com/Tenzorum/TSNN-network-interface) - network interface & tx propagation
+
+[TSNN SDK](https://github.com/Tenzorum/TSNN-client-sdk) - relaying txs to TSNN
+
+[Meta-Tx TSNN standard](https://github.com/Tenzorum/meta-transaction-format-share)
 
 ## Scenarios
 
