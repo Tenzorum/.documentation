@@ -20,11 +20,11 @@ Summary: Onchain transactions with gas paid for by either the user or a third pa
 
 3. Service node recieves the meta-tx and validates it. Checks if the associated contract address is associated with the matching public key given with valid delegation permissions to execute the meta-tx + then checks if other fields of the meta-tx is valid.
 
-4. Meta-tx are propagated around the network and executed.
+4. Meta-tx are propagated and allocated around the network 
 
-5. Once service nodes carry out onchain transaction, they claim the reward encoded into the meta-tx
+5. Service node pk with gas executes the bytecode for the meta-tx
 
-6. Service node pk with gas executes the bytecode for the meta-tx
+6. If execution happens, service nodes are rewarded
 
 ### Repositories
 
@@ -38,17 +38,17 @@ Meta-tx (Meta transaction): Tx with additional meta data fields eg. reward detai
 
 Relay: Act of sending meta-tx away to offchain 2nd layer / service node
 
-Relayer: The user / dapp that is sending the tx away to the 2nd layer / service node
+Relayer: The user / dapp that is sending the tx away to the 2nd layer service node
 
-Delegation: Passing on reponsibility of executing the tx
+Delegation: The act of relaying a meta-tx and relaying the reponsibility of executing the tx to a third party
 
-Delegated-tx (Delegated transaction): Meta-tx that has been relayered
+Delegated-tx (Delegated transaction): Meta-tx that has been relayed to a service node to be executed
 
-Service node: Server that recieves meta-txs and confirms the validity of the tx.
+Service node: A server that recieves meta-txs and executes valid meta-txs
 
 Tx-pool: Pending layer of meta-txs that are ready to be executed
 
-Gasless transaction - users point of view
+Gasless transaction - And event that happens from the user's point of view
 
 ### Architectural requirements, challenges, issues, decisions to be made
 
