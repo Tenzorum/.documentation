@@ -28,9 +28,9 @@ Summary: Onchain transactions with gas paid for by either the user or a third pa
 
 ### Repositories
 
-https://github.com/Tenzorum/tenz-client-sdk
-https://github.com/Tenzorum/tenz-tsnn
-https://github.com/Tenzorum/tenz-tsn-js
+- https://github.com/Tenzorum/tenz-client-sdk
+- https://github.com/Tenzorum/tenz-tsnn
+- https://github.com/Tenzorum/tenz-tsn-js
 
 ### Jargon & definition of terms
 
