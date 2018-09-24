@@ -24,6 +24,8 @@ Summary: Onchain transactions with gas paid for by either the user or a third pa
 
 5. Once service nodes carry out onchain transaction, they claim the reward encoded into the meta-tx
 
+6. Service node pk with gas executes the bytecode for the meta-tx
+
 ### Repositories
 
 https://github.com/Tenzorum/tenz-client-sdk
