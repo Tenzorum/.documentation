@@ -9,20 +9,17 @@ Focused on building a meta-tx service node network protocol called the TSNN
 
 #### Metatx + Tokensubscriptions 
 
-Building meta-tx protocol
+Building meta-tx relays and their applied use for tokensubscriptions
 
-- [metatx.io](metatx.io)
-- [tokensubscriptions.com](tokensubscriptions.com)
-- [Bouncer Proxy](https://github.com/austintgriffith/bouncer-proxy) - GitHub Project
+- [Meta-tx relay server](https://github.com/austintgriffith/bouncer-proxy) - GitHub Project
+- [Tokensubscriptions](https://github.com/austintgriffith/token-subscription)
 - [Delegated Execution Subscriptions](https://github.com/austintgriffith/delegated-execution-subscriptions)
-- [Meta transactions on Ethereum via Identity Proxy Contract](https://www.youtube.com/watch?v=6r3SqCcEVU4&feature=youtu.be)
 
 #### uPort
 
 Working on meta-txs for decentralised identity onboarding, user experience and key management
 
-- [Making uPort Smart Contracts Smarter, Part 3: Fixing UX with Meta Txns](https://medium.com/uport/making-uport-smart-contracts-smarter-part-3-fixing-user-experience-with-meta-transactions-105209ed43e0) - Medium article
-- [Meta Transaction Relaying Server](https://developer.uport.me/rest-apis/relay-server/)
+- [Meta-tx relay server](https://developer.uport.me/rest-apis/relay-server/)
 
 #### Planet Ethereum
 
