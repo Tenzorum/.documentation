@@ -11,7 +11,7 @@ Focused on building a meta-tx service node network protocol called the TSNN
 
 Building meta-tx relays and their applied use for tokensubscriptions
 
-- [Meta-tx relay server](https://github.com/austintgriffith/bouncer-proxy) - GitHub Project
+- [Meta-tx relay server](https://github.com/austintgriffith/bouncer-proxy)
 - [Tokensubscriptions](https://github.com/austintgriffith/token-subscription)
 - [Delegated Execution Subscriptions](https://github.com/austintgriffith/delegated-execution-subscriptions)
 
@@ -23,7 +23,15 @@ Working on meta-txs for decentralised identity onboarding, user experience and k
 
 #### Planet Ethereum
 
-[Gas relay execution market](https://github.com/planet-ethereum/relay-network)
+Building a gas execution market for meta-txs
+
+- [Gas relay execution market](https://github.com/planet-ethereum/relay-network)
+
+#### Gnosis Safe
+
+Building a multi-sig wallet that uses meta-txs for better ux.
+
+- [Gnosis Safe contracts](https://github.com/gnosis/safe-contracts)
 
 #### Status
 
@@ -41,9 +49,7 @@ https://github.com/ethberlin-hackathon/ETHBerlin-Teambuilding/issues/35
 
 https://github.com/EthWorks/EthereumIdentitySDK
 
-### Discussions
 
-https://github.com/ethereum/EIPs/issues/965
 
 ## **Meta-tx user experience use cases**
 
@@ -59,10 +65,6 @@ How meta-txs can be used...
 
 Allowing users to sign messages to show intent of execution, but allowing a third party relayer to execute them is an emerging pattern being used in many projects. 
 
-
-https://medium.com/@lyricalpolymath/all-aboard-alliance-for-mass-adoption-of-the-blockchain-209bde271778
-
-
 #### HatchCrypto unilogin
 - [unilogin](https://github.com/HatchCrypto/unilogin) - GitHub project
 
@@ -76,19 +78,12 @@ This is a React - Web3 - Solidity Proof of Concept signup / login design pattern
 
 ### `Wallets`
 
-- Gnosis Safe - [Website](https://safe.gnosis.io/) - [Gnosis Safe contracts](https://github.com/gnosis/safe-contracts) Aims to provide all users with a convenient, yet secure way to manage their funds and interact with decentralized applications on Ethereum.
-
 Aims to provide all users with a convenient, yet secure way to manage their funds and interact with decentralized applications on Ethereum.
 
-
-### `Token subscriptions`
-
-https://medium.com/gitcoin/technical-deep-dive-architecture-choices-for-subscriptions-on-the-blockchain-erc948-
-
-[Ethereum Grants - Recurring token subscriptions powered by meta transactions](https://www.youtube.com/watch?v=Dgc_siqNrOA)
-
-### `Gasless product model`
-
+### Discussions
+- https://medium.com/@lyricalpolymath/all-aboard-alliance-for-mass-adoption-of-the-blockchain-209bde271778
+- https://medium.com/gitcoin/technical-deep-dive-architecture-choices-for-subscriptions-on-the-blockchain-erc948-
+- https://github.com/ethereum/EIPs/issues/965
 - https://twitter.com/owocki/status/1021859962882908160
 - https://twitter.com/MarkBeylin/status/1022267133818941441
 - https://twitter.com/lyricalpolymath/status/1042841114762465285
