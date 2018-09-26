@@ -1,20 +1,28 @@
-## Implementions & projects working on meta-txs
+# Implementions & projects working on meta-txs
 
-#### Tenzorum
+#### Tenzorum 
 
-https://github.com/Tenzorum/.documentation/blob/master/TSNN.md
+Focused on building a meta-tx service node network protocol called the TSNN
 
-#### Metatx
+- [Tenzorum.org](tenzorum.org)
+- [TSNN Documentation](https://github.com/Tenzorum/.documentation/blob/master/TSNN.md)
+
+#### Metatx + Tokensubscriptions 
+
+Building meta-tx protocol
+
+- [metatx.io](metatx.io)
+- [tokensubscriptions.com](tokensubscriptions.com)
 - [Bouncer Proxy](https://github.com/austintgriffith/bouncer-proxy) - GitHub Project
-- [Delegated Execution Subscriptions](https://github.com/austintgriffith/delegated-execution-subscriptions) - combines Bouncer Proxy w/ Token Subscriptions
-- [Meta transactions on Ethereum via Identity Proxy Contract](https://www.youtube.com/watch?v=6r3SqCcEVU4&feature=youtu.be) - youtube video
-
+- [Delegated Execution Subscriptions](https://github.com/austintgriffith/delegated-execution-subscriptions)
+- [Meta transactions on Ethereum via Identity Proxy Contract](https://www.youtube.com/watch?v=6r3SqCcEVU4&feature=youtu.be)
 
 #### uPort
+
+Working on meta-txs for decentralised identity onboarding, user experience and key management
+
 - [Making uPort Smart Contracts Smarter, Part 3: Fixing UX with Meta Txns](https://medium.com/uport/making-uport-smart-contracts-smarter-part-3-fixing-user-experience-with-meta-transactions-105209ed43e0) - Medium article
 - [Meta Transaction Relaying Server](https://developer.uport.me/rest-apis/relay-server/)
-
-Sandbox for experimenting with etherless meta transactions. The heart of the trick is to sign and recover transactions using Ethereum key pairs both on and off chain.
 
 #### Planet Ethereum
 
