@@ -1,7 +1,5 @@
 ## Implementions & projects working on meta-txs
 
-We have a community thing: https://github.com/austintgriffith/meta-transaction-format-share
-
 #### Tenzorum
 
 https://github.com/Tenzorum/.documentation/blob/master/TSNN.md
