@@ -1,20 +1,29 @@
-# Hitch hiker's guide to Meta-txs
+# Welcome to meta-txs!
 
-## What are meta-txs?
+### This page here will look to explain the following things:
 
-Meta-txs are method of signing transactions that allows them to be used in a layer 2 architecture that allows for the transaction to be executed by a third party. The result is that within this layer 2 architectural setup, a private key has the potential to sign onchain transactions without ever needing gas in its account, hence achieving the 'gasless transaction'.
+* What are meta-txs...
+* Why you should be excited about them...
 
-Previously, to interact and send onchain transactions, a private key would need to hold gas. The Meta-tx abstracts the concept of gas out of executing the transaction.
+***
 
-It means that a wallet, exchange, game or any application can allow people to use their systems without having to own ETH to do anything that touches the Blockchain.
 
-If you want to learn about how this layer 2 architecture works, [read the the documentation on the TSNN](https://github.com/Tenzorum/.documentation/blob/master/TSNN.md)
+### What are meta-txs and how do they work?
 
-## Use cases of meta-txs?
+// This is a rough high level explaination, the implementation details aren't mentioned here.
 
-**On-boarding**
+Meta-txs stand for meta transactions. They are transactions which are signed by the user but not called by the user. Instead the transaction is sent to a server that executes the transaction for the user. This is known as the meta-tx relay. The server that receives meta-txs and executes them on behalf of the user is known as the relay server that provides the relay service. There are different models of how users gain access to execute meta-txs. 
 
-**Wallet key management**
+![](https://i.imgur.com/vZ50sNH.png)
 
-**Token subscriptions**
+### What do meta-txs solve?
 
+Meta-transactions enable users to authenticate to a server with a key pair which allows them to conduct onchain transactions without any gas in the key pair account.
+
+**Web3 User onboarding:** Since meta-txs abstract out the need for gas on the key to execute onchain, meta-txs enable applications to give 'free' transactions to users without any further user friction. Eg. For your first 5 transactions, your transactions are free. Usually, users who are completely new to web3 products and cryptocurrencies in general will not have any gas and/or other cryptocurrencies. They are often forced to go through the metamask -> KYC exchange process. While this process is inevitable to some extend, meta-txs enable further user engagement through potentially 'free' transactions, thus providing a greater ability for applications to activate their users.
+
+**Wallet key management:** Since meta-txs abstract out the need for gas on the key to execute onchain, they can actually also conduct meta-txs while paying for their own gas usage with their own identity contract wallet. Since users are able to generate keys on different devices and add them to their central identity contract wallet to gain access to execute meta-txs, users no longer require the exportation of their private keys through seed phrases and the behaviour of sending funds from one account to another. They will be able to access their funds from any keys that is authenticated to conduct meta-txs from their identity contract wallet.
+
+**Other miscellaneous usecases:** Scheduled meta-txs which are conditionally executed based on time, token subscriptions ...
+
+An example vision of what could be enabled by meta-txs can shown here: [All-Aboard! Alliance for Mass Adoption of the Blockchain](https://medium.com/@lyricalpolymath/all-aboard-alliance-for-mass-adoption-of-the-blockchain-209bde271778)
