@@ -47,7 +47,3 @@ A SDK that is used to interface with the TSNN to use meta-transactions. Also inc
 [Key manager prototype](https://github.com/Tenzorum/IPAS-momentum-browser) - client side key manager
 
 [Key manager login prototype](https://github.com/Tenzorum/IPAS-login-prototype) - key manager login idea
-
-## How to contribute
-
-Join the engineering effort on our gasless tx crew chat https://t.me/joinchat/HcTaOxJH6OzCna2UWJZo9A
